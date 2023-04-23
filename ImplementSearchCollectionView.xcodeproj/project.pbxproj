@@ -16,6 +16,8 @@
 		20A8CE2529F59EDE00E54498 /* ImplementSearchCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8CE2429F59EDE00E54498 /* ImplementSearchCollectionViewTests.swift */; };
 		20A8CE2F29F59EDE00E54498 /* ImplementSearchCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8CE2E29F59EDE00E54498 /* ImplementSearchCollectionViewUITests.swift */; };
 		20A8CE3129F59EDE00E54498 /* ImplementSearchCollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8CE3029F59EDE00E54498 /* ImplementSearchCollectionViewUITestsLaunchTests.swift */; };
+		20A8CE3E29F5C03900E54498 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8CE3D29F5C03900E54498 /* MyCollectionViewCell.swift */; };
+		20A8CE4029F5C3A200E54498 /* BirdsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A8CE3F29F5C3A200E54498 /* BirdsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		20A8CE2A29F59EDE00E54498 /* ImplementSearchCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImplementSearchCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A8CE2E29F59EDE00E54498 /* ImplementSearchCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementSearchCollectionViewUITests.swift; sourceTree = "<group>"; };
 		20A8CE3029F59EDE00E54498 /* ImplementSearchCollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplementSearchCollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		20A8CE3D29F5C03900E54498 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		20A8CE3F29F5C3A200E54498 /* BirdsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		20A8CE0129F59EDC00E54498 = {
 			isa = PBXGroup;
 			children = (
+				20A8CE3D29F5C03900E54498 /* MyCollectionViewCell.swift */,
 				20A8CE0C29F59EDC00E54498 /* ImplementSearchCollectionView */,
 				20A8CE2329F59EDE00E54498 /* ImplementSearchCollectionViewTests */,
 				20A8CE2D29F59EDE00E54498 /* ImplementSearchCollectionViewUITests */,
@@ -106,6 +111,7 @@
 				20A8CE1629F59EDD00E54498 /* Assets.xcassets */,
 				20A8CE1829F59EDD00E54498 /* LaunchScreen.storyboard */,
 				20A8CE1B29F59EDD00E54498 /* Info.plist */,
+				20A8CE3F29F5C3A200E54498 /* BirdsData.swift */,
 			);
 			path = ImplementSearchCollectionView;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20A8CE1229F59EDC00E54498 /* ViewController.swift in Sources */,
+				20A8CE4029F5C3A200E54498 /* BirdsData.swift in Sources */,
 				20A8CE0E29F59EDC00E54498 /* AppDelegate.swift in Sources */,
+				20A8CE3E29F5C03900E54498 /* MyCollectionViewCell.swift in Sources */,
 				20A8CE1029F59EDC00E54498 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
